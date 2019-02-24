@@ -21,5 +21,18 @@ namespace WindowsFormsApplication
         {
 
         }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+           
+            checkBox1.Hide();
+            checkBox2.Show();
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            checkBox2.Hide();
+            checkBox1.Show();
+        }
     }
 }
